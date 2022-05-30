@@ -1,0 +1,64 @@
+{
+  "id": "1",
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+  },
+  "config": {
+    "testRunner": {
+      "command": "npm run test --",
+      "args": {
+        "filter": "--grep",
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "cd coderoad && npm install"
+      ],
+      "commits": [
+        "3e1e2cdf727e705f95c0a2b52857d6151337823e"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/first-tut",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create index.html",
+      "summary": "Optional summary for Level 1",
+      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "hints": [
+            "This is a hint to help people through the test",
+            "Second hint for 1.1, don't worry if the hints don't show up yet"
+          ],
+          "setup": {
+            "commits": [
+              "e53ce589b3f6c680b3aa61ff7430a12864f1dc51"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "cb8df82c5ff2a8aa67a68e40c59b225bc798f506"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

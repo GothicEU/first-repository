@@ -11,7 +11,7 @@ config:
     commands:
       - cd coderoad && npm install
   repo:
-    uri: https://github.com/moT01/first-tut
+    uri: https://github.com/GothicEU/first-tutorial
     branch: v0.1.0
   dependencies:
     - name: node
